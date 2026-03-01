@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DP MA – Dienstplan</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Monatsweise Dienstplan-PDFs">
+</head>
+<body>
+  <header class="site-header">
+    <h1>DP MA</h1>
+    <p class="subtitle">Wähle den Monat – das PDF öffnet auf Mobilgeräten in einem neuen Tab.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <div class="months">
+        <div class="col">
+          <h3>Januar – Juni</h3>
+          <a class="btn month" href="files/dienstplan_Januar.pdf"  target="_blank" rel="noopener">Januar</a>
+          <a class="btn month" href="files/dienstplan_Februar.pdf" target="_blank" rel="noopener">Februar</a>
+          <a class="btn month" href="files/dienstplan_Maerz.pdf"   target="_blank" rel="noopener">März</a>
+          <a class="btn month" href="files/dienstplan_April.pdf"   target="_blank" rel="noopener">April</a>
+          <a class="btn month" href="files/dienstplan_Mai.pdf"     target="_blank" rel="noopener">Mai</a>
+          <a class="btn month" href="files/dienstplan_Juni.pdf"    target="_blank" rel="noopener">Juni</a>
+        </div>
+        <div class="col">
+          <h3>Juli – Dezember</h3>
+          <a class="btn month" href="files/dienstplan_Juli.pdf"       target="_blank" rel="noopener">Juli</a>
+          <a class="btn month" href="files/dienstplan_August.pdf"     target="_blank" rel="noopener">August</a>
+          <a class="btn month" href="files/dienstplan_September.pdf"  target="_blank" rel="noopener">September</a>
+          <a class="btn month" href="files/dienstplan_Oktober.pdf"    target="_blank" rel="noopener">Oktober</a>
+          <a class="btn month" href="files/dienstplan_November.pdf"   target="_blank" rel="noopener">November</a>
+          <a class="btn month" href="files/dienstplan_Dezember.pdf"   target="_blank" rel="noopener">Dezember</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><small>© <span id="year"></span> Dienstplan</small></footer>
+  <script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body>
+</html>
