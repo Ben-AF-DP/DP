@@ -1,1 +1,0 @@
-Variante A: PDF öffnet auf allen Geräten immer in neuem Tab.
